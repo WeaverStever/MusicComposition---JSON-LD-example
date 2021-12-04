@@ -1,0 +1,160 @@
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "http://schema.org/MusicComposition",
+  "@id": "http://musicbrainz.org/work/fd1aa4f2-ba26-3a05-b72d-4392c35a073c",
+  "sameAs": "https://www.wikidata.org/wiki/Q300385",
+  "name": "A Day in the Life",
+  "datePublished": "1967",
+  "iswcCode": [
+    "T0101402361",
+    "T-010.140.236-1"
+  ],
+  "inLanguage": "EN",
+  "genre": [
+    "art rock",
+    "psychedelic rock",
+    "orchestral pop"
+  ],
+  "license": "https://example.com/protected-document.pdf",
+  "alternateName": [
+    "A DAY IN THE LIFE (FEAT. CHLOE KOHANSKI)",
+    "A DAY IN THE LIFE (NEW VERSION)",
+    "A DAY IN THE LIFE - REMASTERED 2009",
+    "INTERLUDE I: A DAY IN THE LIFE"
+  ],
+  "identifier": {
+    "@type": "http://schema.org/PropertyValue",
+    "propertyID": "Work ID",
+    "value": "340116449"
+  },
+  "composer": [
+    {
+      "@type": "http://schema.org/Person",
+      "name": "John Lennon",
+      "@id": "http://musicbrainz.org/artist/4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+      "affiliation": "PRS",
+      "identifier": {
+        "@type": "http://schema.org/PropertyValue",
+        "propertyID": "IPI",
+        "value": "99065782"
+      }
+    },
+    {
+      "@type": "http://schema.org/Person",
+      "name": "Paul McCartney",
+      "@id": "http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af",
+      "affiliation": "PRS",
+      "identifier": [
+        {
+          "@type": "http://schema.org/PropertyValue",
+          "propertyID": "IPI",
+          "value": "18873266"
+        },
+        {
+          "@type": "http://schema.org/PropertyValue",
+          "propertyID": ["ISNI", "ISN"],
+          "value": "0000 0001 2145 2530",
+          "url": "https://isni.org/isni/0000000121452530"
+        }
+      ]
+    }
+  ],
+  "publisher": {
+    "@type": "http://schema.org/Organization",
+    "name": "Northern Songs, Ltd.",
+    "@id": "http://musicbrainz.org/label/26df054d-78cf-4d83-9bb1-a41816125528",
+    "image": "https://www.discogs.com/label/264546-Northern-Songs",
+    "naics": "512230",
+    "isicV4": "592",
+    "memberOf": "PRS",
+    "telephone": "(615) 726-8300",
+    "email": "ted.goldthorpe@sonyatv.com",
+    "startDate": "",
+    "endDate": "",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "IPI",
+      "value": "22562608"
+    },
+    "address": {
+      "@type": "http://schema.org/PostalAddress",
+      "name": "C/O SONY/ATV TUNES LLC",
+      "addressLocality": "NASHVILLE",
+      "addressRegion": "TN",
+      "postalCode": "37219",
+      "streetAddress": "424 CHURCH STREET, SUITE 1200"
+    }
+  },
+  "lyrics": {
+    "@type": "http://schema.org/CreativeWork",
+    "text": "I  read the news today oh boy...",
+    "url":"https://genius.com/The-beatles-a-day-in-the-life-lyrics"
+  },
+  "recordedAs": [
+    {
+      "@type": "MusicRecording",
+      "isrcCode": "",
+      "duration": "PT5M34S",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "@id": "https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "name": "The Beatles",
+        "sameAs": "https://en.wikipedia.org/wiki/The_Beatles"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "albumProductionType": "https://schema.org/StudioAlbum",
+        "albumReleaseType": "https://schema.org/AlbumRelease",
+        "albumRelease": {
+          "@type": "MusicRelease",
+          "name": "Sgt. Pepper’s Lonely Hearts Club Band",
+          "datePublished": "1967-06-01",
+          "catalogNumber": "PMC 7027",
+          "musicReleaseFormat": "https://schema.org/VinylFormat",
+          "contentLocation": {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          "recordLabel": {
+            "@type": "Organization",
+            "name": "Parlophone (UK)"
+          }
+        }
+      }
+    },
+    {
+      "@type": "MusicRecording",
+      "isrcCode": "",
+      "duration": "PT5M03S",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "@id": "https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "name": "The Beatles",
+        "sameAs": "https://en.wikipedia.org/wiki/The_Beatles"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "albumProductionType": "https://schema.org/StudioAlbum",
+        "albumReleaseType": "https://schema.org/AlbumRelease",
+        "albumRelease": {
+          "@type": "MusicRelease",
+          "name": "Sgt. Pepper’s Lonely Hearts Club Band",
+          "datePublished": "1967-06-02",
+          "catalogNumber": "MAS 2653",
+          "musicReleaseFormat": "https://schema.org/VinylFormat",
+          "contentLocation": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "recordLabel": {
+            "@type": "Organization",
+            "name": "Capitol Records"
+          }
+        }
+      }
+    }
+  ]
+}
+</script>

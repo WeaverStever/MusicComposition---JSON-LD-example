@@ -6,5 +6,5 @@ Because the song durations are different lengths, the releases were treated as s
 (This allows for separate ISRC codes)
 
 Had the song durations been the same, I would have used two releases of the same (master) recording.<br>
-(TODO: Labels could concievably release the same master recording under different ISRC codes. In the current schema, currently, the only expected type for isrcCode is MusicRecording.)
+(TODO: Labels could concievably release the same master recording under different ISRC codes. In the current schema, currently, the only expected type for <a href="https://schema.org/isrcCode">isrcCode</a> is MusicRecording.)
 
